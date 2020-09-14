@@ -1,0 +1,59 @@
+<!-- Developer Name : Oscar Chiqui - Web Programing Class, Fall 2020 - TITLE: Missile Warning Test Program -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+<!-- Website tittle - The main topic and the reason to do this program. -->
+
+  <title>Missile Warning Test Program</title>
+ <!-- the link to the CSS , which come together with the html code.-->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- The design color background for the entire page -->
+
+    <body style="background-color: orange;"></body>
+
+<!-- The introduction message and some instruction for the User/client to interact with the webpage.-->
+    <p>Welcome message? .</p>
+    
+
+<button onclick="myFunction()">See it ! </button>
+<script>
+function myFunction() {
+  alert("You have two options to activate missile alert, thanks !");
+}
+
+// Now, I write the two options, which included id: to display the alert in the Webpage. // 
+</script>
+
+<h1>Missile Alerts</h1>
+
+<a id="real-alert" class="missile-link" href="#">Send Missile Alert</a>
+<a id="test-only" class="missile-link" href="#">Send Test Missile Alert</a>
+ <p>To send the alert;  click on <b>Send Missile Alert</b> </p>
+
+<!-- I choose an image that is related with the topic / I describe the size and I put the image source as a link. -->
+
+ <img src="Science_forecasting-1152325323.jpg" alt="Downtown " width="500" height="600">
+
+ <!-- At the end, I use let and the id to run the alert with the correct message ! -->
+<script>
+    let realAlert = document.querySelector("#real-alert")
+    realAlert.addEventListener('click', function(){
+    let sendalert = confirm('Send REAL alert, are you SURE!?!?!')
+    if (sendalert) {
+        alert('Missile Alert Sent!')
+        // TODO actually send alert
+    } else {
+        alert('No alert sent.')
+        // do nothing.
+    }
+})
+</script>
+</body>
+</html>

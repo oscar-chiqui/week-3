@@ -1,0 +1,10 @@
+/*the color applied for the .jumbotron */
+.jumbotron {
+    background-color:orange;
+}
+/*The google fonts css styles applied to web page */
+body{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 20px;
+}

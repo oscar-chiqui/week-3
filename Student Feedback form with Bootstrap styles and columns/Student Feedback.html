@@ -1,0 +1,82 @@
+<!-- Oscar Chiqui - Web Development Class. Project Name:"The Student Self Assessment "-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--The title of the web page , which indicate the main topic and the reason for it.-->
+  <title>Student-Self Self-Assessment </title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- In this section; I take resources from "Google fonts" and "Stackpath.com"  to apply the fonts and the bootstrap. 
+Those links have their own code to apply the style. -->
+
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="feedback-styles.css" type="text/css">
+
+</head>
+
+<body class="m-3">
+
+<!-- I introduce the tittle for the topic -->
+<div class="jumbotron">
+  <h1>"COVID-19 Self-Assessment - Minneapolis College  " </h1>
+</div>
+
+<!-- The message is displayed to indicate to the client/students,  what to do in the page -->
+
+<div class="row">  
+
+  <div class="col-md-5">  
+    <div class="ml-5">
+      <p>Minnesota State Colleges and Universities is using the health screening instrument as a condition of entering campus buildings..</p>
+      <p>The data collected about you in this screening process is classified as private under the Minnesota Government Data Practices Act.  We will use this data to screen individuals before they enter campus buildings for
+           potential COVID-19 related health risks to try to avoid the potential of spreading COVID-19. </p>
+      <p><b>Please write down and  fill in the information boxes..</b></p>
+
+<!-- I upload an image to be more representative and visual -->
+
+      <img src="mctc_logo.jpg" alt="College" width="250" height="200">
+    </div>
+  </div>  
+<!-- In this section; I classify the label, the text, the id and the type  ( the class) -->
+  <div class="col-md-7">  
+    <form class="ml-5 mr-5">
+      <label for="name">Full Name</label> <input id="name" class="form-control"  type="text"><br>
+      <label for="email">Student ID </label> <input id="email" class="form-control"  type="email"><br>
+      <label for="School-Name">The number of people living in your household ?   </label> <input id="School-Name" class="form-control"  type="School-Name"><br>
+      <label for="comments">Describe symptoms and pain ? if you have some. </label> <br>
+      <textarea id="comments" class="form-control" required></textarea><br>
+
+<!-- The submit botton is created, this works after you fill out the information boxes -->
+
+      <p class="form-text">Are you a current student?</p>
+      <div class="form-check">
+        <input name="current-student" id="yes" class="form-check-input" type="radio" checked>
+        <label for="yes"  class="form-check-label">Yes</label>
+      </div>
+<!-- The Validation Process is set up based on the id and classes -->
+
+      <div class="form-check">
+        <input name="current-student" id="no" class="form-check-input" type="radio">
+        <label for="no"  class="form-check-label" >No</label>
+      </div>
+<!-- Bootstrap’s button styles can be applied to other elements, such as <label>s, to provide checkbox or radio style button toggling. -->
+    
+      <div>
+        <input class="btn btn-primary mt-2" type="submit">
+      </div>
+    </form>
+
+  </div> 
+
+</div> 
+
+
+</body>
+</html>
+
+

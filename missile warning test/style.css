@@ -1,0 +1,31 @@
+/* Some of the styles are applied in the 
+ program to describe and highlight the paragraphs and tittles. */
+
+</style>
+body {
+  background-color: rgb(201, 76, 76);
+}
+body {
+  background-color: coral;
+}
+</style>
+
+#real-alert {
+    border:1px black double;
+    box-shadow: 2px 2px gray;
+    margin: 5px;
+    color:red;
+    padding: 5px;
+}
+
+#test-only {
+    color: red;
+    border:1px black double;
+    box-shadow: 2px 2px gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+.missile link{
+    display:block ;
+}

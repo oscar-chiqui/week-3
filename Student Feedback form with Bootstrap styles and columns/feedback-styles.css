@@ -1,0 +1,9 @@
+/*the color applied for the .jumbotron */
+.jumbotron {
+    background-color: yellow;
+}
+/*The google fonts css styles applied to web page */
+body {
+    font-family: 'Fira sans', sans-serif;
+    background-color:#f2f4f5;
+}

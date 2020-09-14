@@ -1,0 +1,15 @@
+/*The google fonts css styles applied to web page */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+/*Add a gradient background image - hex colors.*/
+
+div {
+    background-color: #FFEB33 ;
+
+        width: 70%;
+        height: 600px;
+        
+        color:#080605   ;
+    }
