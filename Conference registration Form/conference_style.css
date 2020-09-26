@@ -3,13 +3,15 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
-/*Add a gradient background image - hex colors.*/
+/*Update : >> Add a gradient background image - hex colors.*/
 
 div {
-    background-color: #FFEB33 ;
+    background-image: linear-gradient(#0080ff  , #ffbf00 30%);
 
         width: 70%;
         height: 600px;
         
         color:#080605   ;
     }
+
+  
