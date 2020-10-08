@@ -18,7 +18,7 @@
 
 UPDATE - Registrant's name should be an input  ;  -->
 
-<form></form>
+<form>  <!-- the close form tag goes after all the inputs -->
 <p>
   <br> <label for="Registrant's name">Registrant's name:</label> <textarea rows="1" cols="30" maxlength="70"></textarea>
 <!--Email, validated as email. Required. -->
@@ -32,7 +32,7 @@ UPDATE - Registrant's name should be an input  ;  -->
   <br> <label for="birth">Date of birth?:</label> <input id="birth" name="birth_date" type="date">
   <br> <label for="time">Time of request ?</label>  <input id="time" name="time" type="time">
 
-</form>
+<!-- </form> Remove this one -->  
 
 <!-- T-shirt size, either small, medium, or large. Use select and option elements. Required.-->
 
@@ -73,12 +73,15 @@ UPDATE - Registrant's name should be an input  ;  -->
 <p> <label for="file">You can send files and your preferences in zip files,<b>Upload a file:</b></label> <input id="file" name="file" type="file"> </p>
 <!-- Radio buttons to select if wanting to receive email from conference sponsors; yes or no. Required.-->
 <p> Would you like to receive email from conference sponsors;?
-  <input id="Agree" name="notifications" type="radio"> <label for="Agree">Yes</label>
-  <input id="disagree" name="decline" type ="radio"> <label for="disagree">No</label>
+
+  <!-- These names need to be the same for the radio buttons to work -->
+  <input id="Agree" name="receive-email" type="radio"> <label for="Agree">Yes</label>
+  <input id="disagree" name="receive-email" type ="radio"> <label for="disagree">No</label>
 
 <!-- A submit button - input type = submit.-->
   <input type="submit">
 </p>
+</form>
 
 </div>
 
